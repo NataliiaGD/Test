@@ -1,0 +1,187 @@
+[arabic]
+. {blank}
++
+____
+pwd
+____
+. {blank}
++
+____
+mkdir qa_Natashock
+____
+. {blank}
++
+____
+cd qa_Natashock +
+____
+. {blank}
++
+____
+mkdir qa_1 +
+____
+
+____
+mkdir qa_2
+
+mkdir qa_3
+____
+
+[arabic, start=5]
+. {blank}
++
+____
+cd qa_3 +
+____
+. {blank}
++
+____
+touch qq.txt +
+____
+
+____
+touch ww.txt
+
+touch qwery.txt
+
+touch aa.json
+
+touch bb.json
+____
+
+[arabic, start=7]
+. {blank}
++
+____
+ls -la +
+____
+. {blank}
++
+____
+vim qq.txt +
+____
+. {blank}
++
+____
+i -> texting ->
+____
+. {blank}
++
+____
+Esc -> :wq
+____
+. {blank}
++
+____
+cd ..
+____
+. {blank}
++
+____
+mv qa_3/qq.txt qa_2 +
+____
+
+____
+mv qa_3/ww.txt qa_2
+____
+
+{empty}13. cp qa_2/ww.txt qa_3
+
+cp qa_2/bb.json qa_3
+
+{empty}14. find . -name “ww.txt”
+
+{empty}15. grep “Vladik” test11.txt
+
+grep -r “Vladik”
+
+{empty}16. head -n 2 test11.txt
+
+{empty}17. tail -n 2 test11.txt
+
+{empty}18. less test11.txt
+
+{empty}19. date
+
+*Task
+
+[arabic]
+. {blank}
++
+____
+*curl -is* http://162.55.220.72:5005/terminal-hw-request
+____
+
+____
+*response*
+
+HTTP/1.0 200 OK
+
+Content-Type: application/json
+
+Content-Length: 237
+
+Server: Werkzeug/2.0.1 Python/3.8.10
+
+Date: Fri, 15 Apr 2022 14:26:04 GMT
+
+\{"Intro":"Hello!! This is your the first response from
+server","Tasks":\{"Task_1":"Send the next URL in terminal:
+http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)%22,%22result%22:%5B%22Your_String%22,%22Your_number[+++http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number+++]"]}}
+
+*curl -is*
+**“**http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)%22,%22result%22:%5B%22Your_String%22,%22Your_number[+++http://162.55.220.72:5005/get_method?name=(ttttt)&age=(25)+++]*”*
+
+*quotes are necessary or remove brackets*
+
+*response*
+
+HTTP/1.0 200 OK
+
+Content-Type: application/json
+
+Content-Length: 21
+
+Server: Werkzeug/2.0.1 Python/3.8.10
+
+Date: Fri, 15 Apr 2022 14:50:36 GMT
+
+{empty}["(ttttttt)","(25)"]
+____
+
+[arabic, start=2]
+. {blank}
++
+____
+*Scripts.sh*
+____
+
+* {blank}
++
+____
+nano myscript1.sh
+____
+* {blank}
++
+____
+#!/bin/bash
+____
+* {blank}
++
+____
+commands
+____
+* {blank}
++
+____
+ctrl+O, enter
+____
+* {blank}
++
+____
+F2
+____
+* {blank}
++
+____
+./myscript1.sh
+____
