@@ -1,0 +1,144 @@
+Usability checklist for - “Facebook.com”
+
+Pre-condition - User already logged in
+
+Environment - production
+
+Browser - Google Chrome, 102.0.5005.61
+
+[cols=",",options="header",]
+|===
+|*Navigation checks* |Pass/Fail
+|1.Verify that main menu is accessible from all application pages
+|Passed
+
+|2.Verify logo is present on all pages |Passed
+
+|3.Check that logo leads to the main page |Passed
+
+|4.Check that all pages are accessible |Passed
+
+|5.Check that search is present and works |Passed
+
+|*Content* |
+
+|6.Check that Help (FAQ) page is available |Passed
+
+|7.Check fonts of the content elements of each level |Passed
+
+|8.Check the possibility to chow comments according to date - from
+oldest to newest |Failed
+
+|9.Check content alignments |Passed
+
+|10.Check that main functions are easy to navigate to |Passed
+
+|11.Check that news in news feed appears acoording to date - from newest
+to oldest |Failed
+|===
+
+*Bug reports*
+
+*ID* - 001
+
+*Title* - It is not possible to sort the comments from oldest to newest
+
+*Environment* - Google chrome, 102.0.5005.61
+
+*Severity* - Low
+
+*Priority* - medium
+
+*Pre-condition* - user already logged-in
+
+*Steps to reproduce*
+
+* {blank}
++
+____
+Go to facebook.com
+____
+* {blank}
++
+____
+Go to news feed
+____
+* {blank}
++
+____
+Open comments
+____
+* {blank}
++
+____
+Pay attention to possible sorting methods
+____
+
+*Actual result* - It is not possible to sort the comments from oldest to
+newest
+
+*Expected result* - it has to be possible to sort comments from oldest
+to newest
+
+*ID* - 002
+
+*Title* - It is not possible to sort the news in the news feed from
+newest to oldest
+
+*Environment* - Google chrome, 102.0.5005.61
+
+*Severity* - Low
+
+*Priority* - medium
+
+*Pre-condition* - user already logged-in
+
+*Steps to reproduce*
+
+* {blank}
++
+____
+Go to facebook.com
+____
+* {blank}
++
+____
+Go to news feed
+____
+* {blank}
++
+____
+Scroll down and pay attention to posting date of the news
+____
+
+*Actual result* - the news in the news feed publicing without sorting
+and some of them become not relevant
+
+Expected result - it has to be possible to sort the news from newest to
+oldest to be relevant
+
+Some recomentstions:
+
+[arabic]
+. {blank}
++
+____
+Some comments under feeds appear in random order or from newest to
+oldest and sometimes because of that the relevance of information - is
+missed.
+____
+
+____
+That's why - it would be better to have a possibility to sort the
+comments from oldest to newest.
+____
+
+[arabic, start=2]
+. {blank}
++
+____
+If we talk about the news feed - news has to appear in the news feed
+from newest to oldest because sometimes it is possible to see the news
+which was posted, for example, one year ago - and these are not relevant
+now.
+____
