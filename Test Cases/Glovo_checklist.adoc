@@ -1,0 +1,315 @@
+* *Explore competitive apps to Glovo. Write a list* 1. Salateira app2.
+Bolt foo
+* *Create a checklist for testing mobile features*
+
+== App - Glovo
+
+____
+Environment - iPhone 11, iOS 15.5
+____
+
+[cols=",",options="header",]
+|===
+a|
+____
+Checklist
+____
+
+a|
+____
+Status
+____
+
+a|
+____
+1.Check the registration
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+2.Check the login and password fields
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+3.Check the log in with Facebook
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+4.Check the login with Apple
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+5.Check the main carousel
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+6.Check the search field
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+7.Check the adding right address
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+8.Check the possibility to choose the restaurant
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+9.Check the posibility to add chosen product to the bin
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+10.Check the adding credit card
+____
+
+a|
+____
+Passed
+____
+
+|===
+
+____
+d3. Wolt app4. Rice&Fish
+____
+
+=== ID Title Pre-conditions
+
+TC01 Log in with the valid test data
+
+TC02 Add the user's delivery address User has already logged-in TC03
+Choose the restaurant from the User has already logged-in TC04 Add
+chosen products to the 1. User has already logged-in TC05 Add credit
+card to the payment User has already logged-in TC06 Make an online
+payment for the 1. Credit card was added TC07 Make an order with
+posibilty to 1. User has already logged-in TC08 Add telephone number in
+User has already logged-in TC09 Make an order by using 1. User has
+already logged-in TC10 Make an order with picking-up 1. User has already
+logged-in
+
+=== Test steps Test data Expected result
+
+{empty}1. Go to "Glovo" app Login - test@gmail.com User successfully log
+in
+
+{empty}1. Go to "Glovo" app Address - "Pehemohy avenu, Chosen address is
+added to
+
+{empty}1. Go to "Glovo" app Chosen restaurant and menu list
+
+[arabic]
+. Go to "Glovo" Chosen product are added to the
+. Tap on "User" icon +++1. Card name - test name+++ Credit card is
+successfully added
+
+{empty}1. Go to the order list Address - "Pehemohy avenu, Online payment
+with the chosen
+
+{empty}1. Go to the order list Order with payment by cash is
+
+{empty}1. Go to "Glovo" app Telephone number - Telephone number is
+
+{empty}1. Go to the order list Address - "Pehemohy avenu, Order is
+successfully confirmed
+
+{empty}1. Go to the restaurant page Address - "Pehemohy avenu, Order is
+successfully confirmed
+
+=== Environment Status
+
+iPhone 11, iOS 15.5 Passed
+
+iPhone 11, iOS 15.6 Passed
+
+iPhone 11, iOS 15.7 Passed
+
+iPhone 11, iOS 15.8 Passed
+
+iPhone 11, iOS 15.9 Passed
+
+iPhone 11, iOS 15.9 Passed
+
+iPhone 11, iOS 15.10 Passed
+
+iPhone 11, iOS 15.11 Passed
+
+iPhone 11, iOS 15.12 Passed
+
+iPhone 11, iOS 15.13 Passed
+
+____
+- Create a checklist for testing mobile features for
+
+Website - https://virpp.com/explore Environment - iPhone 11, iOS - 15.5
+____
+
+[cols=",",options="header",]
+|===
+a|
+____
+Checklist
+____
+
+a|
+____
+Status
+____
+
+a|
+____
+{empty}1. Check the elements with landscape&portrait mod
+____
+
+a|
+____
+Failed
+____
+
+a|
+____
+{empty}2. Ensure that text, images and conrols are aligned
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+{empty}3. Ensure that conrols are tap-friendly and big-
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+{empty}4. Ensure that navigation elements don't run or
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+{empty}5. Ensure that page content that is important
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+{empty}6. Make sure the content scrolls and displays proper
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+{empty}7. Make sure the user can navigate using swipe
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+8.Ensure important content appears before other
+____
+
+a|
+____
+Passed
+____
+
+a|
+____
+{empty}9. Check the animation elements with
+____
+
+a|
+____
+Failed
+____
+
+a|
+____
+{empty}10. Ensure that all text content is readable
+____
+
+a|
+____
+Passed
+____
+
+|===
+
+____
+Logs
+____
